@@ -32,7 +32,7 @@ const IntegrationFlow: React.FC = () => {
                         {tabs.map((tab) => (
                             <div
                                 key={tab.id}
-                                className={`px-4 py-3 cursor-pointer d-flex align-items-center text-nowrap  ${activeTab === tab.id ? 'border-3 fw-semibold' : 'fw-normal'}`}
+                                className={`tab-item px-4 py-3 cursor-pointer d-flex align-items-center text-nowrap  ${activeTab === tab.id ? 'active-tab fw-semibold' : 'fw-normal'}`}
                                 style={{
                                     cursor: 'pointer',
                                     color: activeTab === tab.id ? '#090F4E' : '#4C4C4C',
