@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import contactIcon from '../assets/contacts.png';
-import cursorIcon from '../assets/cursor-pointer-icon.png';
-import mappingIcon from '../assets/mappingIcon.png';
-import waterfallIcon from '../assets/waterfall-3d-icon.png';
+import contactIcon from '../assets/icons/contacts.png';
+import cursorIcon from '../assets/icons/cursor-pointer-icon.png';
+import mappingIcon from '../assets/icons/mappingIcon.png';
+import waterfallIcon from '../assets/icons/waterfall-3d-icon.png';
 
 const FeaturesMarquee: React.FC = () => {
   const features = [

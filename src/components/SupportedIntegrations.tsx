@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
-import bgCrm from '../assets/bg-crm.png';
-import chatIcon from '../assets/crm-chat.svg';
+import bgCrm from '../assets/backgrounds/bg-crm.png';
+import chatIcon from '../assets/illustrations/crm-chat.svg';
 
 const SupportedIntegrations: React.FC = () => {
   return (

@@ -1,14 +1,14 @@
 import React from 'react';
 import { Badge, Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { FaTimes } from 'react-icons/fa';
-import aiResponseImg from '../assets/ai-response.png';
-import contactsImg from '../assets/contacts.png';
-import crmOverlayImg from '../assets/crm-overlay.png';
-import logo from '../assets/logo 3.svg';
-import syncImg from '../assets/sync.png';
-import withLeadCRM from '../assets/with-leadcrm.png';
-import withoutLeadCRM from '../assets/without-leadcrm.png';
-import curlyLine from '../assets/curly-line.svg';
+import aiResponseImg from '../assets/icons/ai-response.png';
+import contactsImg from '../assets/icons/contacts.png';
+import crmOverlayImg from '../assets/screenshots/crm-overlay.png';
+import logo from '../assets/logos/logo 3.svg';
+import syncImg from '../assets/icons/sync.png';
+import withLeadCRM from '../assets/screenshots/with-leadcrm.png';
+import withoutLeadCRM from '../assets/screenshots/without-leadcrm.png';
+import curlyLine from '../assets/illustrations/curly-line.svg';
 
 const DailyChallenges: React.FC = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Badge, Button, Col, Container, Row } from 'react-bootstrap';
 import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone, FaQuestionCircle, FaTwitter } from 'react-icons/fa';
-import chromeLogo from '../assets/chrome-logo.svg';
-import logo from '../assets/logo.svg';
+import chromeLogo from '../assets/logos/chrome-logo.svg';
+import logo from '../assets/logos/logo.svg';
 
 const Footer: React.FC = () => {
    return (

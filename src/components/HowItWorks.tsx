@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { FaArrowRight } from 'react-icons/fa';
-import ballImg from '../assets/ball.png';
-import syncCrmImg from '../assets/sync-crm.svg';
-import installExtImg from '../assets/install-extension.svg';
-import browseLinkedInImg from '../assets/browse-linkedin.svg';
-import getDataImg from '../assets/getData.svg';
+import ballImg from '../assets/icons/ball.png';
+import syncCrmImg from '../assets/illustrations/sync-crm.svg';
+import installExtImg from '../assets/illustrations/install-extension.svg';
+import browseLinkedInImg from '../assets/illustrations/browse-linkedin.svg';
+import getDataImg from '../assets/illustrations/getData.svg';
 
 const HowItWorks: React.FC = () => {
 

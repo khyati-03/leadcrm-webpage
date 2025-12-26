@@ -1,14 +1,14 @@
 import React from 'react';
 import { Badge, Button, Container } from 'react-bootstrap';
 import { FaStar } from 'react-icons/fa';
-import bgHero from '../assets/bg-hero-1.png';
-import capterraLogo from '../assets/capterra-logo.svg';
-import chromeLogo from '../assets/chrome-logo.svg';
-import chromeStore from '../assets/chrome-store.svg';
-import hubspotLogo from '../assets/hubspot.svg';
-import pipedriveLogo from '../assets/pipedrive.svg';
-import salesforceLogo from '../assets/salesforce.svg';
-import rocketIcon from '../assets/rocket.png';
+import bgHero from '../assets/backgrounds/bg-hero-1.png';
+import capterraLogo from '../assets/logos/capterra-logo.svg';
+import chromeLogo from '../assets/logos/chrome-logo.svg';
+import chromeStore from '../assets/logos/chrome-store.svg';
+import hubspotLogo from '../assets/logos/hubspot.svg';
+import pipedriveLogo from '../assets/logos/pipedrive.svg';
+import salesforceLogo from '../assets/logos/salesforce.svg';
+import rocketIcon from '../assets/icons/rocket.png';
 
 const HeroSection: React.FC = () => {
     return (

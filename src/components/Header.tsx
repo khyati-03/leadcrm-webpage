@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { FaChevronDown, FaBars, FaTimes } from 'react-icons/fa';
 import { FiLogIn } from 'react-icons/fi';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logos/logo.svg';
 import '../styles/header.scss';
 
 const Header: React.FC = () => {

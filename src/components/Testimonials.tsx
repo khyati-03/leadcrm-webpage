@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { Button, Card, Container } from 'react-bootstrap';
 import { FaChevronLeft, FaChevronRight, FaStar } from 'react-icons/fa';
-import avatarUser1 from '../assets/avatar.png';
-import capterraLogo from '../assets/capterra-logo.svg';
+import avatarUser1 from '../assets/icons/avatar.png';
+import capterraLogo from '../assets/logos/capterra-logo.svg';
 
 const Testimonials: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);

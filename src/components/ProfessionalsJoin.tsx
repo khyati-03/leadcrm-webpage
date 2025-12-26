@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { FaArrowRight } from 'react-icons/fa';
-import bannerImg from '../assets/product-hunt-banner-image.png';
+import bannerImg from '../assets/screenshots/product-hunt-banner-image.png';
 
 const ProfessionalsJoin: React.FC = () => {
   return (

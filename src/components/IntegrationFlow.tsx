@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Badge, Col, Container, Row } from 'react-bootstrap';
-import tabOneIcon from '../assets/CRM-tab1.svg';
-import tabThreeIcon from '../assets/CRM-tab2.svg';
-import tabTwoIcon from '../assets/CRM-tab3.svg';
-import tabFourIcon from '../assets/CRM-tab4.svg';
-import searchFiltersImg from '../assets/search-filters-img.png';
-import verifiedImg from '../assets/verified.png';
-import waterfallImg from '../assets/waterfall-img.png';
+import tabOneIcon from '../assets/tabs/CRM-tab1.svg';
+import tabThreeIcon from '../assets/tabs/CRM-tab2.svg';
+import tabTwoIcon from '../assets/tabs/CRM-tab3.svg';
+import tabFourIcon from '../assets/tabs/CRM-tab4.svg';
+import searchFiltersImg from '../assets/screenshots/search-filters-img.png';
+import verifiedImg from '../assets/screenshots/verified.png';
+import waterfallImg from '../assets/screenshots/waterfall-img.png';
 
 const IntegrationFlow: React.FC = () => {
     const [activeTab, setActiveTab] = useState('enrichment');
@@ -28,7 +28,7 @@ const IntegrationFlow: React.FC = () => {
 
                 {/* Custom Tabs */}
                 <div className="overflow-hidden">
-                    <div className="d-flex mb-4 overflow-auto" style={{ borderBottom: '1px solid #EDEDED' }}>
+                    <div className="d-flex justify-content-lg-center mb-4 overflow-auto" style={{ borderBottom: '1px solid #EDEDED' }}>
                         {tabs.map((tab) => (
                             <div
                                 key={tab.id}
