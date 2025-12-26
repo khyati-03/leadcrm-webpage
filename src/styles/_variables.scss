@@ -1,0 +1,20 @@
+// Colors
+$primary-blue: #090F4E;
+$primary-green: #B3FC6A;
+$brand-blue: #4D55AF;
+$action-blue: #2D96BC;
+$text-color: #7A7A7A;
+$bg-light: #F9FAFC;
+
+// Typography
+$font-family-base: 'Exo 2', sans-serif;
+
+// Bootstrap Overrides
+$primary: $action-blue;
+$success: $primary-green;
+$body-color: $text-color;
+$font-family-sans-serif: $font-family-base;
+
+// Custom
+$border-radius: 10px;
+$btn-border-radius: 6px;
